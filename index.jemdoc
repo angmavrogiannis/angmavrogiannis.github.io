@@ -1,0 +1,24 @@
+ 
+# jemdoc: menu{MENU}{index.html}
+= Angelos Mavrogiannis
+
+~~~
+{}{img_left}{images/duck.png}{Angelos Mavrogiannis}{360px}
+Ph.D. candidate, Computer Science
+\nCarnegie Mellon University, Pittsburgh, PA
+\n\n[contact.html Contact]: [angelosm@andrew.cmu.edu]\n\n
+{{<ul class="icons">
+<li><a href="https://www.facebook.com/angmavrogiannis" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+<li><a href="https://github.com/angmavrogiannis" class="fa fa-github solo"><span>Github</span></a></li>
+<li><a href="http://www.linkedin.com/in/angmavrogiannis" class="fa fa-linkedin solo"><span>LinkedIn</span></a></li>
+</ul>}}
+
+Hello.
+\nSkato.
+~~~
+
+== About Me
+I am a kid.
+
+
+\n\n(For more updated information, please contact me via email, ok?)\n
