@@ -10,13 +10,13 @@ Having joined Intelligent Control Lab at the Robotics Institute on spring 2019, 
 == Robot Design
 ~~~
 {}{img_left}{images/oswald.png}{Oswald}{300px}
-Drawing inspiration from penguins, I collaborated with a team of students to design, manufacture and test an underwater penguin robot for the course *[https://www.andrew.cmu.edu/user/amj1/classes/robotdesign.html Robot Design & Experimentation]* taught by Prof. *[http://www.andrew.cmu.edu/user/amj1/ Aaron Johnson]*. We came up with a ball-and-socket motion transmission mechanism for the movement of the flippers, fabricated a rib-and-spar body using 3D printers and laser-cutters and used Arduino for the controls. A video we created for our project, containing interviews and testing footage can be found *[https://www.youtube.com/watch?v=3IRqu0saWe8 here]*.
+Drawing inspiration from penguins, I collaborated with a team of students to design, manufacture and test an underwater penguin robot for the course *[https://www.andrew.cmu.edu/user/amj1/classes/robotdesign.html Robot Design & Experimentation]* taught by Prof. *[http://www.andrew.cmu.edu/user/amj1/ Aaron Johnson]*. We came up with a ball-and-socket motion transmission mechanism for the movement of the flippers, fabricated a rib-and-spar body using 3D printers and laser-cutters and used Arduino for the controls.\[*[https://www.youtube.com/watch?v=3IRqu0saWe8 video]*\]
 ~~~
 
 == Game Design
 ~~~
-{}{img_left}{images/sticky_man.jpeg}{Sticky-Man game}{300px}
-Using *[https://www.opengl.org/ OpenGL]* on C++, we implemented a 2D fighting game for the course *[https://www.meche.engineering.cmu.edu/education/courses/24-780.html Engineering Computation]*, taught by Prof. *[https://engineering.cmu.edu/directory/bios/gomez-nestor.html Nestor Gomez]*. On the single player mode, the user controls a sticky-man figure and fights vs an AI agent. On the multiplayer mode, two users control their own sticky-man figure and fight until one of them is eliminated. The sticky-man figure can take a different set of states: gun mode (ranged), knife mode (melee), fight mode (melee). Code implementation can be found *[https://github.com/angmavrogiannis/24-780B-Engineering-Computation/tree/master/Sticky-Man here]*.
+{}{img_left}{images/sticky_man2.jpeg}{Sticky-Man game}{300px}
+Using *[https://www.opengl.org/ OpenGL]* on C++, we implemented a 2D fighting game for the course *[https://www.meche.engineering.cmu.edu/education/courses/24-780.html Engineering Computation]*, taught by Prof. *[https://engineering.cmu.edu/directory/bios/gomez-nestor.html Nestor Gomez]*. On the single player mode, the user controls a sticky-man figure and fights vs an AI agent. On the multiplayer mode, two users control their own sticky-man figure and fight until one of them is eliminated. The sticky-man figure can take a different set of states: gun mode (ranged), knife mode (melee), fight mode (melee). \[*[https://github.com/angmavrogiannis/24-780B-Engineering-Computation/tree/master/Sticky-Man code]*\].
 ~~~
 
 == Occluded Object Pose Estimation 
@@ -25,4 +25,10 @@ Using *[https://www.opengl.org/ OpenGL]* on C++, we implemented a 2D fighting ga
 While manipulating objects in activities of daily living, we come across a problem where objects
 are quite often severely occluded from the egocentric viewpoint making it difficult for the object
 of interest to be tracked. Inspired by this problem, we collected a synthetic dataset of *[https://www.shadowrobot.com/products/dexterous-hand/ manipulator]* postures and object poses in *[https://gym.openai.com/ OpenAI Gym]* and mapped changes in hand pose to object displacements in order to track occluded objects. Our approach consists of a Multilayer Perceptron that takes as input the joint angles of the manipulator and outputs the position and rotation of the object. This project was a part of the course *[http://www.cs.cmu.edu/afs/cs/academic/class/16741-s07/www/index.html Mechanics of Manipulation]*, taught by Prof. *[https://www.cs.cmu.edu/~mason/ Matthew Mason]*.
+~~~
+
+== Genetic-Algorithm-based Optimization Framework 
+~~~
+{}{img_left}{images/gripper.png}{gripper-object forces}{300px}
+For my undergraduate diploma thesis, I developed a framework on Visual Basic that receives mathematical expressions as input, analyzes them using a suitable parser, and optimizes them with genetic algorithms. The parser allows the input of the expressions in string format and distinguishes the variables, the parameters and the operational symbols. Besides the equations, the user can choose between a set of genetic algorithms for the optimization, as well as the hyperparameters. The implemented software was tested and validated on two applications: the minimization of the forces applied onto an object grasped by a robotic arm and the maximization of the stiffness of a cantilever beam. \[*[https://github.com/angmavrogiannis/Diploma-Thesis code]*\]
 ~~~
