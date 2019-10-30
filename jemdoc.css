@@ -9,7 +9,7 @@ table#tlayout {
 body {
 	background: white;
 	/*font-family: Georgia, serif;*/
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Cambria", Georgia, serif;
 	font-size: 1.2em;
 	padding-bottom: 8px;
 	margin: 0;
@@ -24,7 +24,7 @@ body {
 	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
-    text-align: left;
+    text-align: justify;
     vertical-align: top;
 }
 
@@ -39,7 +39,7 @@ body {
 	padding-right: 1.0em;
     border: none;
     background: white;
-    text-align: left;
+    text-align: justify;
     vertical-align: top;
 }
 
@@ -347,7 +347,7 @@ td {
     padding: 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    text-align: center;
+    text-align: justify;
     border: 1px solid gray;
 }
 
@@ -366,5 +366,20 @@ img {
 
 table.imgtable, table.imgtable td {
     border: none;
-    text-align: left;
+    text-align: justify;
+}
+
+@media screen and (max-width: 650px) {
+
+	#name {
+		font-size: 8.7vw;
+	}
+
+	#buttons {
+		font-size: 3vw;		
+	}
+
+  	#text {
+  		width:75%;
+  	}
 }
