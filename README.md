@@ -1,3 +1,3 @@
 # angmavrogiannis.github.io
-Repository for creating a website using jemdoc: http://jemdoc.jaboc.net/
+Repository for creating a website using jemdoc: http://jemdoc.jaboc.net/ \n
 Live website: https://angmavrogiannis.github.io
