@@ -24,7 +24,7 @@ body {
 	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
-    text-align: left;
+    text-align: justify;
     vertical-align: top;
 }
 
@@ -36,10 +36,10 @@ body {
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
-	padding-right: 1.0em;
+	padding-right: 30.0em;
     border: none;
     background: white;
-    text-align: left;
+    text-align: justify;
     vertical-align: top;
 }
 
@@ -54,7 +54,8 @@ tt {
 
 pre, tt {
 	font-size: 90%;
-	font-family: monaco, monospace;
+	font-family: "Times New Roman", Times, serif;
+	/*font-family: monaco, monospace;*/
 }
 
 a, a > tt {
@@ -312,7 +313,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 }
 
 #layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
-	margin-top: -0.7em;
+	margin-top: 0.1em;
 }
 
 div#toptitle h1, #layout-content div#toptitle h1 {
@@ -346,7 +347,7 @@ td {
     padding: 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    text-align: center;
+    text-align: justify;
     border: 1px solid gray;
 }
 
@@ -365,5 +366,5 @@ img {
 
 table.imgtable, table.imgtable td {
     border: none;
-    text-align: left;
+    text-align: justify;
 }
