@@ -3,7 +3,7 @@
 
 == Vehicle Behavior Prediction
 ~~~
-{}{img_left}{images/lstm.png}{LSTM Architecture}{300px}
+{}{img_left}{images/semantic_feat.jpg}{Semantic Features}{300px}
 Having joined Intelligent Control Lab at the Robotics Institute on spring 2019, I started working on vehicle behavior prediction, advised by Prof. *[http://www.cs.cmu.edu/~cliu6/ Changliu Liu]*. Precisely, I labeled vehicle trajectory data taken from the *[https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm Next Generation Simulation (NGSIM)]* dataset based on their maneuver attempted or executed during the next 3 seconds (keep current lane, turn left or turn right). I formulated a multiclass classification problem of predicting the intention/maneuver of a vehicle for a predetermined time horizon using semantic features, such as vehicle coordinates and velocity, and implemented a Long Short-Term Memory (LSTM) network using *[https://pytorch.org/ PyTorch]* that outputs the probability of each class at every time step. I also demonstrated the superiority of LSTM networks on sequential prediction tasks by comparing the model to a regular feedforward network.\[*[https://github.com/angmavrogiannis/Vehicle-Intention-Prediction/tree/master code]*\]
 ~~~
 
