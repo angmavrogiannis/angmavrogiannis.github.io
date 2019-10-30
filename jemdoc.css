@@ -24,7 +24,7 @@ body {
 	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
-    text-align: justify;
+    text-align: left;
     vertical-align: top;
 }
 
@@ -36,10 +36,10 @@ body {
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
-	padding-right: 30.0em;
+	padding-right: 1.0em;
     border: none;
     background: white;
-    text-align: justify;
+    text-align: left;
     vertical-align: top;
 }
 
@@ -347,7 +347,7 @@ td {
     padding: 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    text-align: justify;
+    text-align: center;
     border: 1px solid gray;
 }
 
@@ -366,5 +366,5 @@ img {
 
 table.imgtable, table.imgtable td {
     border: none;
-    text-align: justify;
+    text-align: left;
 }
