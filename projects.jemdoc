@@ -36,7 +36,7 @@ For my undergraduate diploma thesis, I developed a framework on Visual Basic tha
 == Computational Robotics Project
 ~~~
 {}{img_left}{images/kuka_robot.jpg}{KUKA robot}{300px}
-Forward and inverse kinematics constitute some of the most fundamental concepts in robotics. As part of an undergraduate robotics course, I chose a 6-degree-of-freedom industrial robot, namely *[https://www.robots.com/robots/kuka-kr-6-r700-sixx KUKA KR 6 R700 sixx WP]*, upon which I developed software on MATLAB that does the following:
+Forward and inverse kinematics constitute some of the most fundamental concepts in robotics. As part of an undergraduate robotics course, I chose a 6-degree-of-freedom industrial robot, namely *[https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-agilus?fbclid=IwAR1Z8iihzDCxpbKhjGFO33Bd0a9jV_eUrqWtp7ri1ybRV-G9Zaz1ItZgnGU KUKA KR 6 R700 sixx WP]*, upon which I developed software on MATLAB that does the following:
 \n
 - Calculates the Denavit-Hartenberg parameters of the robot.
 - Implements the forward kinematics.
