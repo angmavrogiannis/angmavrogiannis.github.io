@@ -7,6 +7,18 @@
 Having joined Intelligent Control Lab at the Robotics Institute on spring 2019, I started working on vehicle behavior prediction, advised by Prof. *[https://www.cs.cmu.edu/~cliu6/ Changliu Liu]*. In particular, I labeled vehicle trajectory data taken from the *[https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm Next Generation Simulation (NGSIM)]* dataset based on their maneuver attempted or executed during the next 3 seconds (keep current lane, turn left or turn right). I formulated a multiclass classification problem of predicting the intention/maneuver of a vehicle for a predetermined time horizon using semantic features, such as vehicle coordinates and velocity, and implemented a Long Short-Term Memory (LSTM) network using *[https://pytorch.org/ PyTorch]* that outputs the probability of each class at every time step. I also demonstrated the superiority of LSTM networks on sequential prediction tasks by comparing the model to a regular feedforward network. \[*[https://github.com/angmavrogiannis/Vehicle-Intention-Prediction/tree/master code]*\]
 ~~~
 
+== Autonomous Vehicle Controller Design
+~~~
+{}{img_left}{images/route.png}{CMU buggy route}{300px}
+As part of the course *[https://www.meche.engineering.cmu.edu/education/courses/24-677.html Linear Control Systems]*, taught by Prof. *[https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html Ding Zhao]*, I designed a longitudinal and a lateral controller using different techniques to track the route of an autonomous *[https://www.cmu.edu/buggy/ buggy]* vehicle around the CMU campus. A buggy simulator on python was used for getting the required response plots and tuning the parameters of each control method used. The longitudinal motion is controlled by a PID controller, while the lateral motion is controlled using:\n
+- A PID Controller
+- Pole Placement
+- Model Predictive Control
+- Kalman Filter
+
+The autonomous vehicle is required to achieve certain performance criteria, such as a minimum time to complete the route and an average and maximum deviation from the reference trajectory. In the end, a race was held and we competed with each other based on these criteria. \[*[https://github.com/angmavrogiannis/24677-Linear-Control-Systems code]*\]
+~~~
+
 == Robot Design
 ~~~
 {}{img_left}{images/oswald.png}{Oswald}{300px}
