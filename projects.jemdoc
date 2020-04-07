@@ -1,6 +1,22 @@
 # jemdoc: menu{MENU}{projects.html}
 = Projects
 
+== Human Driver Behavior Classification from Partial Trajectory Observation
+~~~
+{}{img_left}{images/clusters.png}{Behavioral Clusters}{300px}
+My master thesis project at Carnegie Mellon is focused on human driver behavior classification. My hypothesis is that leveraging inherent cues representative of drivers' personalities can lead to more accurate predictions for their future trajectories. I am using the Interstate 80 Freeway Dataset from the *[https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm Next Generation Simulation (NGSIM)]* project for which I developed a visualizer on python.\n
+Here is an outline for my approach:
+\n
+- Probabilistic modeling
+- Data processing
+- Dimensionality reduction (PCA)
+- Behavioral clustering (k-means)
+- Online inference (KNN, Logistic Regression, Multilayer Perceptron)
+- Trajectory prediction (HMM)
+
+\[*[https://www.youtube.com/watch?v=ldNasL2I--A video]*\] \[*[https://github.com/angmavrogiannis/Human-Driver-Behavior-Classification-from-Partial-Trajectory-Observation code]*\]
+~~~
+
 == Vehicle Behavior Prediction
 ~~~
 {}{img_left}{images/semantic_feat.jpg}{Semantic Features}{300px}
