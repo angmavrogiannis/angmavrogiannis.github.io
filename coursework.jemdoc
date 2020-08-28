@@ -1,6 +1,10 @@
 # jemdoc: menu{MENU}{coursework.html}
 = Coursework
 
+== Graduate Courses (University of Maryland)
+- CMSC 828W: Foundations of Deep Learning (Fall 2020), taught by Prof. *[https://www.cs.umd.edu/~sfeizi// Soheil Feizi]*
+- CMSC 818B: Decision-Making for Robotics (Fall 2020), taught by Prof. *[https://tokekar.com Pratap Tokekar]*
+
 == Graduate Courses (Carnegie Mellon University)
 - 16-899: Adaptive Control and Reinforcement Learning (Spring 2020), taught by Prof. *[http://www.cs.cmu.edu/~cliu6/ Changliu Liu]*
 - 24-789: Deep Learning for Engineers (Spring 2020), taught by Prof. *[https://www.cmu.edu/bme/People/Faculty/profile/afarimani.html Amir Barati Farimani]*
