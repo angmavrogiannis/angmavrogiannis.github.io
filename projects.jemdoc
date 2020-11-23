@@ -1,26 +1,16 @@
 # jemdoc: menu{MENU}{projects.html}
 = Projects
 
+== B-GAP: Behavior-Guided Action Prediction for Autonomous Navigation
+~~~
+{}{img_left}{images/aggro.gif}{bgap}{300px}
+We present a novel learning algorithm for action prediction and local navigation for autonomous driving. Our approach classifies the driver behavior of other vehicles or road-agents (aggressive or conservative) and takes that into account for decision making and safe driving. We present a behavior-driven simulator that can generate trajectories corresponding to different levels of aggressive behaviors and use our simulator to train a policy using graph convolutional networks. We use a reinforcement learning-based navigation scheme that uses a proximity graph of traffic agents and computes a safe trajectory for the ego-vehicle that accounts for aggressive driver maneuvers such as overtaking, over-speeding, weaving, and sudden lane changes. We have integrated our algorithm with *[https://gym.openai.com/ OpenAI gym]*-based *[https://github.com/eleurent/highway-env "Highway-Env"]* simulator and demonstrate the benefits in terms of improved navigation in different scenarios. Project supervised by Prof. *[https://scholar.google.com/citations?user=X08l_4IAAAAJ&hl=en&oi=ao Dinesh Manocha]* at *[https://gamma.umd.edu/ gamma group]*, *[https://www.umd.edu University of Maryland, College Park]*. \[*[https://arxiv.org/abs/2011.03748 arXiv]*\] \[*[https://gamma.umd.edu/bgap project page]*\] \[*[https://github.com/angmavrogiannis/B-GAP-Behavior-Guided-Action-Prediction-for-Autonomous-Navigation code]*\] \[*[https://youtu.be/AKa0esw88sQ video]*\]
+~~~
+
 == Human Driver Behavior Classification from Partial Trajectory Observation
 ~~~
-{}{img_left}{images/clusters.png}{Behavioral Clusters}{300px}
-My master thesis project at Carnegie Mellon is focused on human driver behavior classification. My hypothesis is that leveraging inherent cues representative of drivers' personalities can lead to more accurate predictions for their future trajectories. I am using the Interstate 80 Freeway Dataset from the *[https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm Next Generation Simulation (NGSIM)]* project for which I developed a visualizer on python.\n
-Here is an outline for my approach:
-\n
-- Probabilistic modeling
-- Data processing
-- Dimensionality reduction (PCA)
-- Behavioral clustering (k-means)
-- Online inference (KNN, Logistic Regression, Multilayer Perceptron)
-- Trajectory prediction (HMM)
-
-\[*[https://www.youtube.com/watch?v=ldNasL2I--A video]*\] \[*[https://github.com/angmavrogiannis/Human-Driver-Behavior-Classification-from-Partial-Trajectory-Observation code]*\]
-~~~
-
-== Vehicle Behavior Prediction
-~~~
-{}{img_left}{images/semantic_feat.jpg}{Semantic Features}{300px}
-Having joined Intelligent Control Lab at the Robotics Institute on spring 2019, I started working on vehicle behavior prediction, advised by Prof. *[https://www.cs.cmu.edu/~cliu6/ Changliu Liu]*. In particular, I labeled vehicle trajectory data taken from the *[https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm Next Generation Simulation (NGSIM)]* dataset based on their maneuver attempted or executed during the next 3 seconds (keep current lane, turn left or turn right). I formulated a multiclass classification problem of predicting the intention/maneuver of a vehicle for a predetermined time horizon using semantic features, such as vehicle coordinates and velocity, and implemented a Long Short-Term Memory (LSTM) network using *[https://pytorch.org/ PyTorch]* that outputs the probability of each class at every time step. I also demonstrated the superiority of LSTM networks on sequential prediction tasks by comparing the model to a regular feedforward network. \[*[https://github.com/angmavrogiannis/Vehicle-Intention-Prediction/tree/master code]*\]
+{}{img_left}{images/ngsim_visualizer.png}{NGSIM Visualizer}{300px}
+As autonomous vehicles are being tested on public roads, they must be able to share the road safely with human-driven vehicles. To ensure safety, autonomous vehicles must be capable of accurately estimating human drivers' intentions and their future trajectories. While there has been extensive research in this area, most of the existing approaches do not take into account the individual drivers' personalities and the patterns these personalities reflect on the trajectories of the vehicles. We tackle this issue by proposing a novel method of extracting high-level features from raw vehicle trajectory data and classifying drivers into behavioral classes based on their level of aggressiveness. We demonstrate how the identification of a driver's behavior improves the accuracy of the short-term trajectory prediction problem by introducing a prior knowledge on their behavior. Thesis supervised by Prof. *[https://www.cs.cmu.edu/~cliu6/ Changliu Liu]* at the *[http://icontrol.ri.cmu.edu/ Intelligent Control Lab]* in the *[https://www.ri.cmu.edu/ Robotics Institute]* of *[https://www.cmu.edu/ Carnegie Mellon University]*. \[*[https://www.researchgate.net/publication/345780499_Human_Driver_Behavior_Classification_from_Partial_Trajectory_Observation thesis]*\] \[*[https://github.com/angmavrogiannis/Human-Driver-Behavior-Classification-from-Partial-Trajectory-Observation code]*\] \[*[https://www.youtube.com/watch?v=ldNasL2I--A video]*\] \[*[https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm dataset]*\]
 ~~~
 
 == Autonomous Vehicle Controller Design
@@ -38,13 +28,13 @@ The autonomous vehicle is required to achieve certain performance criteria, such
 == Robot Design
 ~~~
 {}{img_left}{images/oswald.png}{Oswald}{300px}
-Drawing inspiration from penguins, I collaborated with a team of students to design, manufacture and test an underwater penguin robot for the course *[https://www.andrew.cmu.edu/user/amj1/classes/robotdesign.html Robot Design & Experimentation]* taught by Prof. *[https://www.andrew.cmu.edu/user/amj1/ Aaron Johnson]*. We came up with a ball-and-socket motion transmission mechanism for the movement of the flippers, fabricated a rib-and-spar body using 3D printers and laser-cutters and used Arduino for the controls. Besides contributing to the overall design and manufacturing process of the robot, I developed an underwater simulator on *[http://gazebosim.org/ gazebo]* with the model of our constructed robot and used it to adjust the control parameters and perform tests before submerging the robot in the water. \[*[https://www.youtube.com/watch?v=3IRqu0saWe8 video]*\] \[*{{<a href="docs/Oswald Final Project Report.pdf">report</a>}}*\] \[*{{<a href="docs/Mavrogiannis Final Executive Summary.pdf">executive summary</a>}}*\]
+Drawing inspiration from penguins, I collaborated with a team of students to design, manufacture and test an underwater penguin robot for the course *[https://www.andrew.cmu.edu/user/amj1/classes/robotdesign.html Robot Design & Experimentation]* taught by Prof. *[https://www.andrew.cmu.edu/user/amj1/ Aaron Johnson]*. We came up with a ball-and-socket motion transmission mechanism for the movement of the flippers, fabricated a rib-and-spar body using 3D printers and laser-cutters and used Arduino for the controls. Besides contributing to the overall design and manufacturing process of the robot, I developed an underwater simulator on *[http://gazebosim.org/ gazebo]* with the model of our constructed robot and used it to adjust the control parameters and perform tests before submerging the robot in the water. \[*{{<a href="docs/Oswald Final Project Report.pdf">report</a>}}*\] \[*{{<a href="docs/Mavrogiannis Final Executive Summary.pdf">executive summary</a>}}*\] \[*[https://www.youtube.com/watch?v=3IRqu0saWe8 video]*\]
 ~~~
 
 == Game Design
 ~~~
 {}{img_left}{images/sticky_man2.jpeg}{Sticky-Man game}{300px}
-Using *[https://www.opengl.org/ OpenGL]* on C\+\+, we implemented a 2D fighting game for the course *[https://www.meche.engineering.cmu.edu/education/courses/24-780.html Engineering Computation]*, taught by Prof. *[https://engineering.cmu.edu/directory/bios/gomez-nestor.html Nestor Gomez]*. On the single player mode, the user controls a sticky-man figure and fights vs an AI agent. On the multiplayer mode, two users control their own sticky-man figure and fight until one of them is eliminated. The sticky-man figure can take a different set of states: gun mode (ranged), knife mode (melee), fight mode (melee). I created a menu for the game, as well as the background environment, enabling the players to actively interact with it (e.g. climbing stairs, jumping towards different floor levels). I also implemented a simple AI algorithm for the enemy player on the single player mode. \[*[https://www.youtube.com/watch?v=kKTP6xleipg video]*\] \[*[https://github.com/angmavrogiannis/24-780B-Engineering-Computation/tree/master/Sticky-Man code]*\]
+Using *[https://www.opengl.org/ OpenGL]* on C\+\+, we implemented a 2D fighting game for the course *[https://www.meche.engineering.cmu.edu/education/courses/24-780.html Engineering Computation]*, taught by Prof. *[https://engineering.cmu.edu/directory/bios/gomez-nestor.html Nestor Gomez]*. On the single player mode, the user controls a sticky-man figure and fights vs an AI agent. On the multiplayer mode, two users control their own sticky-man figure and fight until one of them is eliminated. The sticky-man figure can take a different set of states: gun mode (ranged), knife mode (melee), fight mode (melee). I created a menu for the game, as well as the background environment, enabling the players to actively interact with it (e.g. climbing stairs, jumping towards different floor levels). I also implemented a simple AI algorithm for the enemy player on the single player mode. \[*[https://github.com/angmavrogiannis/24-780B-Engineering-Computation/tree/master/Sticky-Man code]*\] \[*[https://www.youtube.com/watch?v=kKTP6xleipg video]*\]
 ~~~
 
 == Occluded Object Pose Estimation 
@@ -77,5 +67,5 @@ Finally, I applied the software to a trajectory planning application, combining 
 == 2D Animation
 ~~~
 {}{img_left}{images/pumpkins.jpeg}{Pumpkins}{300px}
-For the individual project of the course *[https://www.meche.engineering.cmu.edu/education/courses/24-780.html Engineering Computation]* (taught by Prof. *[https://engineering.cmu.edu/directory/bios/gomez-nestor.html Nestor Gomez]*), I implemented a halloween-themed demo using *[https://www.opengl.org/ OpenGL]* on C\+\+. The demo includes 2D animation made with *[http://ysflight.in.coocan.jp/programming/fssimplewindow/e.html this]* rendering framework and music that I wrote, recorded and synchronized with the animation transitions. \[*[https://www.youtube.com/watch?v=0CnRe0rtnys video]*\] \[*[https://github.com/angmavrogiannis/24-780B-Engineering-Computation/tree/master/Demo1 code]*\]
+For the individual project of the course *[https://www.meche.engineering.cmu.edu/education/courses/24-780.html Engineering Computation]* (taught by Prof. *[https://engineering.cmu.edu/directory/bios/gomez-nestor.html Nestor Gomez]*), I implemented a halloween-themed demo using *[https://www.opengl.org/ OpenGL]* on C\+\+. The demo includes 2D animation made with *[http://ysflight.in.coocan.jp/programming/fssimplewindow/e.html this]* rendering framework and music that I wrote, recorded and synchronized with the animation transitions. \[*[https://github.com/angmavrogiannis/24-780B-Engineering-Computation/tree/master/Demo1 code]*\] \[*[https://www.youtube.com/watch?v=0CnRe0rtnys video]*\]
 ~~~
