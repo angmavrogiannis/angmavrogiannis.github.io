@@ -1,14 +1,19 @@
 # jemdoc: menu{MENU}{teaching.html}
 = Teaching Experience
 
-Since joining Carnegie Mellon University, I have been working as a teaching assistant for the following courses:
+== [https://www.cs.umd.edu/class/fall2020/cmsc106/ CMSC 106: Introduction to C Programming (Fall 2021)]
+=== Undergraduate Course, Department of Computer Science, University of Maryland, College Park
+==== Taught by Prof. *[https://www.cs.umd.edu/~jplane/ Jandelyn Plane]*
+- Teaching weekly lab sessions on C programming in a UNIX environment.
+- Holding weekly office hours.
+- Creating and grading assignments, projects, and exams.
 
 == [https://www.andrew.cmu.edu/user/amj1/classes/robotdesign.html 24-775: Robot Design & Experimentation (Spring 2020)]
 === Graduate Course, Department of Mechanical Engineering, Carnegie Mellon University
 ==== Taught by Prof. *[https://www.andrew.cmu.edu/user/amj1/ Aaron Johnson]*
 - Teaching recitations and holding weekly office hours.
 - Providing assistance for assignments, robot design projects and answering questions on Piazza.
-- Grading assignments, quizzes and exams.
+- Grading assignments, quizzes, and exams.
 
 == [https://www.coursicle.com/cmu/courses/MEG/24281/ 24-281: Introduction to Scientific Computing (Spring 2019, Fall 2019)]
 === Undergraduate & Graduate Course, Department of Mechanical Engineering, Carnegie Mellon University
@@ -16,7 +21,7 @@ Since joining Carnegie Mellon University, I have been working as a teaching assi
 - Teaching MATLAB recitations and holding weekly office hours.
 - Creating new assignments on various topics (Data Structures, Visualization, Differential Equations etc.).
 - Providing in-class assistance for debugging/concept understanding during lectures and quizzes-exams.
-- Grading assignments, quizzes and exams.
+- Grading assignments, quizzes, and exams.
 
 == [https://www.meche.engineering.cmu.edu/education/courses/24-686.html 24-686: Advanced Mechanical Design (Fall 2018)]
 === Graduate Course, Department of Mechanical Engineering, Carnegie Mellon University
