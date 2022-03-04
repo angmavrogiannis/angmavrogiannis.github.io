@@ -1,6 +1,12 @@
 # jemdoc: menu{MENU}{teaching.html}
 = Teaching Experience
 
+== [https://www.cs.umd.edu/class/fall2021/cmsc216/ CMSC 216: Introduction to Computer Systems (Spring 2022)]
+=== Undergraduate Course, Department of Computer Science, University of Maryland, College Park
+==== Taught by *[https://www.cs.umd.edu/people/larry Larry Herman]*
+- Teaching weekly lectures on C programming, UNIX process control, and Assembly language.
+- Holding weekly office hours and offering debugging assistance to a class of 500 students.
+
 == [https://www.cs.umd.edu/class/fall2020/cmsc106/ CMSC 106: Introduction to C Programming (Fall 2021)]
 === Undergraduate Course, Department of Computer Science, University of Maryland, College Park
 ==== Taught by Prof. *[https://www.cs.umd.edu/~jplane/ Jandelyn Plane]*
