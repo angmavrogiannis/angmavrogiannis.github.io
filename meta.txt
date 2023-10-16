@@ -1,2 +1,0 @@
-<meta name="description" content="Angelos Mavrogiannis | Roboticist">
-<meta name="keywords" content="Angelos Mavrogiannis, Robotics, Control, Autonomous Driving, Artificial Intelligence, Machine Learning, Carnegie Mellon University, University of Patras, Pittsburgh, Greece">
