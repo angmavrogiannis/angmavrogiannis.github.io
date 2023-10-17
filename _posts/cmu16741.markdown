@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Object Pose Estimation from Manipulator Pose"
-date:   "Fall 2018"
+date:   2023-08-28 22:21:56 +00:00
 image: /images/cmu16741.png
-categories: UMD
+categories: coursework
 author: "Angelos Mavrogiannis"
 report: /pdfs/cmu16741.pdf
 course: "CMU 16-741: Mechanics of Manipulation"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cook2LTL: Translating Cooking Recipes to LTL Formulae using Large Language Models"
-date:   2023-08-28 22:21:59 +00:00
+date:   2023-08-28 22:20:59 +00:00
 image: /images/cook2ltl_cover.jpeg
 categories: research
 author: "Angelos Mavrogiannis"

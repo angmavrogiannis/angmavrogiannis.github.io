@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "VR-Integrated Real-Time Racetrack Simulator"
-date:   "Spring 2023"
+date:   2023-08-28 22:21:57 +00:00
 image: /images/cmsc730.png
-categories: UMD
+categories: coursework
 author: "Angelos Mavrogiannis"
 report: /pdfs/cmsc730.pdf
 course: "CMSC 730: Interactive Technologies in HCI"
