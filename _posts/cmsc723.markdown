@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Predictive Modeling Using Linguistic Signal for Suicidality in Social Media"
-date:   "Spring 2021"
+date:   2023-08-28 22:21:58 +00:00
 image: /images/cmsc723.JPG
-categories: UMD
+categories: coursework
 author: "Angelos Mavrogiannis"
 report: /pdfs/cmsc723.pdf
 course: "UMD CMSC 723: Computational Linguistics"

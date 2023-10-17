@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Genetic-Algorithm-based Optimization Framework"
-date:   2023-08-28 22:21:59 +00:00
+date:   2023-08-28 22:21:50 +00:00
 image: /images/uop_thesis.png
 categories: research
 author: "Angelos Mavrogiannis"

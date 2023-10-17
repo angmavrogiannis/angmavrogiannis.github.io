@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Audience targeting using open-source Large Language Models"
-date:   2012-07-24 22:21:59 +00:00
+date:   2012-07-24 22:21:51 +00:00
 image: /images/ads.jpeg
 categories: LinkedIn
 ---
