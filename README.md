@@ -1,4 +1,3 @@
 # angmavrogiannis.github.io
-Repository for creating a website using [Leonid Keselman's](https://leonidk.com) [Jekyll fork](https://github.com/leonidk/leonidk.github.io) of [Jon Baron's website](https://jonbarron.info).
-
-Live website on: https://angmavrogiannis.github.io
+Repository for my personal website: https://angmavrogiannis.github.io
+Design and [https://github.com/jonbarron/jonbarron_website](source code) [https://jonbarron.info](Jon Barron's website).
